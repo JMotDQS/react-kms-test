@@ -1,0 +1,27 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-inline: .25rem;
+	background-color: var(--color-kms-highlight);
+	color: var(--color-kms-shadow);
+	width: 100%;
+	padding: .5rem 1rem;
+	margin-bottom: .5rem;
+	border-bottom-left-radius: .75rem;
+	border-bottom-right-radius: .75rem;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.header-title {
+	font-weight: 600;
+	font-size: .875rem;
+}
+
+header svg {
+	margin: 0;
+	height: calc(3rem * .75);
+	fill: var(--color-kms-shadow);
+}
