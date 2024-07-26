@@ -28,5 +28,5 @@ header svg {
 
 header select {
 	border-radius: var(--quarter-rem);
-	padding-inline: var(--quarter-rem);
+	padding: var(--quarter-rem);
 }

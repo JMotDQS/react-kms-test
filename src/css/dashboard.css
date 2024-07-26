@@ -1,7 +1,7 @@
 .dashboard-container {
 	display: grid;
 	gap: var(--quarter-rem);
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	padding-inline: var(--full-rem);
 }
 .dashboard-container .card {
@@ -11,4 +11,8 @@
 	border: 1px solid var(--color-kms-shadow);
 	border-radius: var(--quarter-rem);
 	padding: var(--quarter-rem);
+}
+
+.dashboard-container .custom-report-card {
+	grid-column: 1/-1;
 }

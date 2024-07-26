@@ -8,7 +8,6 @@ const Header = () => {
 			<Logo />
 
 			<div>
-				<label htmlFor="lots">Lots:&nbsp;</label>
 				<select name="lots" id="lots" defaultValue="0">
 					<option value="0" disabled>Choose a Lot</option>
 					<option value="1">Parts Galore</option>
