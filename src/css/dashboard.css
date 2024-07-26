@@ -1,0 +1,14 @@
+.dashboard-container {
+	display: grid;
+	gap: var(--quarter-rem);
+	grid-template-columns: repeat(2, 1fr);
+	padding-inline: var(--full-rem);
+}
+.dashboard-container .card {
+	text-align: center;
+	color: var(--color-kms-shadow);
+	background-color: white;
+	border: 1px solid var(--color-kms-shadow);
+	border-radius: var(--quarter-rem);
+	padding: var(--quarter-rem);
+}

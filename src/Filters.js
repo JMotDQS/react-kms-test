@@ -7,7 +7,7 @@ const Filters = () => {
 			<button>Registered</button>
 			<button>Keys</button>
 			<button>Yard</button>
-			<button>Button 4</button>
+			<button>Custom</button>
 		</div>
 	)
 }
