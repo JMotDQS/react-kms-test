@@ -20,8 +20,7 @@
 	min-width: calc(var(--full-rem) * 5.25);
 	cursor: pointer;
 }
-.filters button:hover,
-.filters button:focus{
+.filters button:hover{
 	color: var(--color-kms-shadow);
 	background-color: var(--color-kms-highlight);
 }
