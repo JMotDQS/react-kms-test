@@ -11,4 +11,13 @@
 	--color-kms-primary: hsla(57, 81%, 57%, 1);
 	--color-kms-shadow: hsla(57, 81%, 21%, 1);
 	--color-kms-highlight: hsla(57, 81%, 84%, 1);
+
+	--full-rem: 1rem;
+	--full-three-quarter-rem: calc(var(--full-rem) * 1.75);
+	--full-half-rem: calc(var(--full-rem) * 1.5);
+	--full-quarter-rem: calc(var(--full-rem) * 1.25);
+	--full-double-rem: calc(var(--full-rem) * 2);
+	--three-quarter-rem: calc(var(--full-rem) * .75);
+	--half-rem: calc(var(--full-rem) * .5);
+	--quarter-rem: calc(var(--full-rem) * .25);
 }

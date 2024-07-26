@@ -1,0 +1,17 @@
+.filters {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-inline: var(--quarter-rem);
+	width: 100%;
+	padding: var(--half-rem) var(--full-rem);
+	margin-bottom: var(--half-rem);
+}
+
+.filters button {
+	border-radius: var(--half-rem);
+	padding-inline: var(--half-rem);
+	padding-block: var(--quarter-rem);
+	background-color: var(--color-kms-primary);
+	color: var(--color-kms-shadow);
+}
