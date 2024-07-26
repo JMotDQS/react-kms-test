@@ -1,17 +1,27 @@
 .filters {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
 	padding-inline: var(--quarter-rem);
 	width: 100%;
 	padding: var(--half-rem) var(--full-rem);
 	margin-bottom: var(--half-rem);
+	border-bottom: 2px solid var(--color-kms-shadow);
 }
 
 .filters button {
+	font-weight: 600;
+	color: var(--color-kms-highlight);
+	background-color: var(--color-kms-shadow);
 	border-radius: var(--half-rem);
 	padding-inline: var(--half-rem);
 	padding-block: var(--quarter-rem);
-	background-color: var(--color-kms-primary);
+	border-color: var(--color-kms-shadow);
+	min-width: calc(var(--full-rem) * 5.25);
+	cursor: pointer;
+}
+.filters button:hover,
+.filters button:focus{
 	color: var(--color-kms-shadow);
+	background-color: var(--color-kms-highlight);
 }
