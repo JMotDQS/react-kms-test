@@ -21,3 +21,7 @@
 	--half-rem: calc(var(--full-rem) * .5);
 	--quarter-rem: calc(var(--full-rem) * .25);
 }
+
+.invisible {
+	display: none;
+}
